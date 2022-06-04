@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.head {
+    background-color: rgb(46 40 40);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navbar left */
+
+#logo {
+    width: 200px;
+    height: 80px;
+
+}
+
+#address {
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.nav_left i {
+    font-size: 26px;
+    color: rgb(218, 212, 212);
+}
+
+.nav_left a {
+    font-family: 'Satisfy', cursive;
+}
+
+span {
+    color: rgb(151, 150, 150);
+    margin-left: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+/* navbar left end */
+
+.nav_mid {
+    margin-right: 600px;
+    /* border: 2px solid black; */
+}
+
+button {
+    padding:5px;
+    font-size: 18px;
+    border: none;
+    width: 45px;
+    height: 50px;
+}
+
+input {
+    margin-left: 0;
+    border: none;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
+
+.nav_mid>i {
+    padding-top: 10px;
+    padding-left: 8px;
+    border: none;
+    width: 40px;
+    height: 36px;
+    background-color: orangered;
+    /* align-items: center; */
+}
+
+.fa-solid {
+    padding: 5px;
+    font-size: 30px;
+}
+#flag{
+    margin-right: 1900px;
+    width: 70px;
+    height: 40px;
+}
+.right >p , span{
+    color: red;
+}
