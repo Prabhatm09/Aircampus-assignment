@@ -347,7 +347,7 @@ i {
 .sec-1{
     position: relative;
     width: 100%;
-    height: 1190px;
+    height: 790px;
     box-sizing: border-box;   
 }
 .slide img{
@@ -402,7 +402,7 @@ i {
     top: 238px;
     left: 0;
     width: 100%;
-    padding: 28px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -412,13 +412,13 @@ i {
     background-color: rgb(238, 234, 234);
     width: 100%;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .container-1 div:first-child{
     font-size: 14px;
     padding: 12px 0;
 }
-.praduct-comp{
+.product-comp{
     width: 100%;
     height: 100%;
     display: flex;
@@ -426,7 +426,7 @@ i {
     margin: 20px 0;
     justify-content: space-around;
 }
-.praduct-comp .box{
+.product-comp .box{
     width: 315px;
     height: 400px;
     background-color: white;
@@ -462,4 +462,76 @@ i {
     font-size: 13px;
     display: block;
     margin-left:20px;
+}
+.sec-2{
+    width: 100%;
+    height: 315px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.slide-sec h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.slide-sec{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+}
+.product-slide{
+    display: flex;
+    margin-top: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+/* .product-slide::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+} */
+/* .product-slide::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+} */
+.product-slide li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+ .b-btn
+ .r-btn{
+background-color: rgb(255, 255, 255);
+height: 90px;
+width: 50px;
+text-align: center;
+cursor: pointer;
+top: 35%;
+position: absolute;
+border: 3px solid transparent;
+}
+.b-btn{
+    border-radius: 0 5px 5px 0;
+    left: 20px;
+}
+.r-btn{
+    border-radius: 5px 0 0 5px;
+    right: 20px;
+}
+.b-btn:hover{
+    border: 3px solid rgb(2,150,150);
+}
+.r-btn:hover{
+    border: 3px solid rgb(2,150,150);
+}
+.b-btn i, .r-btn i{
+    color: rgb(54,54,54);
+    position: relative;
+    font-size: 30px;
+    top: 35%;
+    left:12px;
 }
